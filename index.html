@@ -2,42 +2,111 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Mi Primera Página</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIERO HUAYNATE</title>
     <style>
-        body{
-            background: #f0f0f0;
-            font-family: Arial;
-            text-align: center;
-            margin-top: 100px;
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 40px;
+            color: #333;
         }
 
-        h1{
-            color: blue;
-        }
-
-        p{
-            font-size: 20px;
-        }
-
-        button{
-            padding: 10px 20px;
-            border: none;
-            background: black;
-            color: white;
+        .contenedor {
+            background-color: white;
+            padding: 25px;
             border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #0066cc;
+        }
+
+        h2 {
+            color: #444;
+            margin-top: 20px;
+        }
+
+        ul {
+            line-height: 1.8;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
-
 <body>
 
-    <h1>Hola Mundo 🌎</h1>
-    <p>Mi primera página web</p>
+    <div class="contenedor">
+        <h1>PIERO ALEJANDRO HUAYNATE ESPINOZA</h1>
 
-    <button onclick="alert('Hola')">
-        Presióname
-    </button>
+        <h2>Información Personal</h2>
+        <p><strong>Correo electrónico:</strong> 
+            <a href="mailto:pierohuaynateespinoza@gmail.com">
+                Click Aquí
+            </a>
+        </p>
+
+        <p><strong>LinkedIn:</strong> 
+            <a href="https://www.linkedin.com/in/piero-alejandro-huaynate-espinoza-9a7126406/" target="_blank">
+                Click Aquí
+            </a>
+        </p>
+
+        <h2>Información Académica</h2>
+        <ul>
+            <li><strong>Escuela Profesional:</strong> Inteligencia Artificial</li>
+            <li><strong>Universidad:</strong> UNMSM</li>
+            <li><strong>Facultad:</strong> FISI</li>
+        </ul>
+
+        <h2>Cursos Estudiados</h2>
+        <ul>
+            <li>MÉTODOS DE ESTUDIO UNIVERSITARIO</li>
+            <li>DESARROLLO PERSONAL Y LIDERAZGO</li>
+            <li>CÁLCULO I</li>
+            <li>ÁLGEBRA Y GEOMETRÍA ANALÍTICA</li>
+            <li>MEDIO AMBIENTE Y DESARROLLO SOSTENIBLE</li>
+            <li>INTRODUCCIÓN A LA COMPUTACIONn</li>
+            <li>REDACCIÓN Y TÉCNICAS DE COMUNICACIÓN EFECTIVA I</li>
+        </ul>
+
+        <h2>Enlaces de Interés</h2>
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/in/ecuadrosv/" target="_blank">
+                    Profesor de Introducción a la Computación
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/kiara-camila-achulli-rivera-8b2758406/" target="_blank">
+                    Kiara Camila Achulli Rivera
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/lesly-yulissa-huerta-jara-6965ab3b6/" target="_blank">
+                    Lesly Yulissa Huerta Jara
+                </a>
+            </li>
+            <li>
+                <a href="https://www.unmsm.edu.pe" target="_blank">
+                    Página Oficial de la UNMSM
+                </a>
+            </li>
+            <li>
+                <a href="https://sistemas.unmsm.edu.pe/site/index.php" target="_blank">
+                    Facultad de Ingeniería de Sistemas e Informática (FISI)
+                </a>
+            </li>
+        </ul>
+    </div>
 
 </body>
 </html>
